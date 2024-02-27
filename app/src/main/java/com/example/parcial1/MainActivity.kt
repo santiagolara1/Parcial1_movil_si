@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
 
                     val viewmodel = Estudiantes_viewmodel(dao)
 
-                    NavManager(viewModel = viewmodel)
+                    Nav_Manager(viewModel = viewmodel)
                 }
             }
         }
